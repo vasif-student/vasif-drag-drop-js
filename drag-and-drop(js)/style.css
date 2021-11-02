@@ -1,0 +1,35 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+
+.box {
+    border: 3px solid yellow;
+    background-color: green;
+    height: 5rem;
+    width: 5rem;
+    border-radius: .3rem;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.box h2 {
+    font-style: italic;
+}
+
+.reset {
+    margin: 5rem 45%;
+}
+
+.reset button {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    font-style: italic;
+    background-color: red;
+    height: 3rem;
+    width: 5rem;
+    border: none;
+    border-radius: 1.5rem;
+}
